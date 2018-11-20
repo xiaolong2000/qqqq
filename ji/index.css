@@ -1,0 +1,36 @@
+body{
+    font-family: "Microsoft yaHei",sans-serif;
+    font-size: 14px;
+    color: #333;
+
+}
+a:hover{
+    color: #333;
+    text-decoration: none;
+}
+@font-face{
+    font-family: itheima;
+    
+}
+.heima_topBar{
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    z-index: 1001;
+}
+.heima_topBar a
+{
+    color: #666;
+}
+.heima_topBar a:hover{
+    color: #666;
+}
+.heima_topBar>.container>.row>div{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.heima_topBar>.container>,.row>div+div{
+    border-left: 1px solid #ccc;
+}
